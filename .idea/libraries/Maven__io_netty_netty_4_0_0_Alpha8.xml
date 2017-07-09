@@ -3,7 +3,11 @@
     <CLASSES>
       <root url="jar://$USER_HOME$/.m2/repository/io/netty/netty/4.0.0.Alpha8/netty-4.0.0.Alpha8.jar!/" />
     </CLASSES>
-    <JAVADOC />
-    <SOURCES />
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.m2/repository/io/netty/netty/4.0.0.Alpha8/netty-4.0.0.Alpha8-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.m2/repository/io/netty/netty/4.0.0.Alpha8/netty-4.0.0.Alpha8-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>
