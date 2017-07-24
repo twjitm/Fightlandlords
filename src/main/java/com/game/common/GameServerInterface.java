@@ -16,5 +16,5 @@ public interface GameServerInterface {
      * @return
      */
 
-     public Method[] getClazz(String  serverName);
+     public Method[] getClazz(String serverName);
 }

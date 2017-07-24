@@ -10,6 +10,6 @@ import com.lmax.disruptor.EventFactory;
 public class CycleDisruptorEventFactory implements EventFactory<CycleEvent> {
     @Override
     public CycleEvent newInstance() {
-        return null;
+           return null;
     }
 }

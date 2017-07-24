@@ -1,21 +1,15 @@
-package com.game.executor.common.utils;/*
-package com.game.executor.common.utils;
+package com.game.executor.event.common.utils;
 
-import com.snowcattle.game.executor.event.EventType;
-import com.snowcattle.game.executor.event.common.constant.EventTypeEnum;
+import com.game.executor.event.EventType;
+import com.game.executor.event.common.type.EventTypeEnum;
 
-*/
 /**
- * Created by jiangwenping on 17/1/9.
- *//*
-
+ * Created by 文江 on 2017/7/10.
+ */
 public class Constants {
-
-    */
-/**
+    /**
      * ⌚事件类型常量
-     *//*
-
+     */
     public static class EventTypeConstans{
         public static EventType createEventType = new EventType(EventTypeEnum.CREATE.ordinal());
         public static EventType updateEventType = new EventType(EventTypeEnum.UPDATE.ordinal());
@@ -25,11 +19,9 @@ public class Constants {
         public static EventType finishedEventType = new EventType(EventTypeEnum.FINISHED.ordinal());
     }
 
-    */
-/**
+    /**
      * Thread的名字前缀
-     *//*
-
+     */
     public static class Thread{
         public static final String UPDATE="update";
         public static final String DISPATCH="dispatch";
@@ -38,19 +30,14 @@ public class Constants {
         public static final String UpdateExecutorService="UpdateExecutorService";
     }
 
-    */
-/**
+    /**
      * 循环次数
-     *//*
-
+     */
     public static class cycle{
-        */
-/**
+        /**
          * 每秒循环次数
-         *//*
-
+         */
 
         public static final int cycleSize = 1000;
     }
 }
-*/

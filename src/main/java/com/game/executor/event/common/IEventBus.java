@@ -1,11 +1,14 @@
+package com.game.executor.event.common;/*
 package com.game.executor.event.common;
 
 import com.snowcattle.game.executor.event.AbstractEventListener;
 
+*/
 /**
  * Created by 唐文江 on 17/1/6.
  * ⌚
- */
+ *//*
+
 public interface IEventBus {
     public void addEventListener(AbstractEventListener listene);
     public void removeEventListener(AbstractEventListener listene);
@@ -16,3 +19,4 @@ public interface IEventBus {
     public void clearEvent();
     public void clear();
 }
+*/
