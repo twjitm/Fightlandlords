@@ -6,6 +6,7 @@ import redis.clients.util.SafeEncoder;
 
 import java.util.List;
 import java.util.Map;
+import java.util.Properties;
 import java.util.Set;
 
 /**
@@ -50,6 +51,8 @@ public class RedisUtils {
 
     static {
         JedisPoolConfig config = new JedisPoolConfig();
+        Properties properties=new Properties();
+        //properties.
         //控制一个pool可分配多少个jedis实例，通过pool.getResource()来获取；
         //如果赋值为-1，则表示不限制；如果pool已经分配了maxActive个jedis实例，则此时pool的状态为exhausted(耗尽)。
         config.setMaxTotal(500);
